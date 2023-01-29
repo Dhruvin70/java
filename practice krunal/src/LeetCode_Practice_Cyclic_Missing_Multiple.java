@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Practice_Cyclic_Missing_Multiple {
+public class LeetCode_Practice_Cyclic_Missing_Multiple {
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         System.out.println(findDisappearedNumbers(arr));
