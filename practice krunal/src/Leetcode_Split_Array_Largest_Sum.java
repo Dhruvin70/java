@@ -23,16 +23,15 @@ public class Leetcode_Split_Array_Largest_Sum {
             else {
                 sum +=nums[num];
             }
-                }
+        }
         if(pieces>k){
             start = mid+ 1;
 
-        }
-        else{
+             }
+             else{
             end= mid;
+            }
         }
-     }
         return end;
     }
-
 }
