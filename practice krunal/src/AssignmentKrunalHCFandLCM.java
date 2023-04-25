@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class AssignmentKrunalHCFandLCM {
+public class  AssignmentKrunalHCFandLCM {
 
     public static void main(String args[]){
         int temp1, temp2, num1, num2, temp, hcf, lcm;
@@ -10,6 +8,8 @@ public class AssignmentKrunalHCFandLCM {
         num1 =4;
         System.out.print("Enter Second Number: ");
         num2 =12;
+        System.out.println(Euclids_HCF_LCM(num2,num1));
+
 
 
         temp1 = num1;
@@ -27,7 +27,13 @@ public class AssignmentKrunalHCFandLCM {
         System.out.println("HCF of input numbers: "+hcf);
         System.out.println("LCM of input numbers: "+lcm);
     }
-                }
+    static int Euclids_HCF_LCM(int a,int b){
+        if(a==0){
+            return b;
+        }
+        return Euclids_HCF_LCM(b%a,a);
+    }
+}
 
 /*properties of modulus */
 

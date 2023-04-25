@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Leetcode_findErrorNums {
     public static void main(String[] args) {
-        int[] ar = {2,2};
+        int[] ar = {1,1};
         System.out.println(Arrays.toString(findErrorNums(ar)));
     }
     public static int[] findErrorNums(int[] nums) {

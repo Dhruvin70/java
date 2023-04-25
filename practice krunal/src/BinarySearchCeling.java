@@ -24,10 +24,10 @@ public class BinarySearchCeling {
                 start = mid +1;
             }
             else{
-                return mid;
+                return arr[mid];
             }
         }
         // for floor return become end when it his condition where end<start  where our answer lies   in    end    mid    start
-        return start;
+        return arr[start];
     }
 }

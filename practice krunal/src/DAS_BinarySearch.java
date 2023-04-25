@@ -1,6 +1,6 @@
 public class DAS_BinarySearch {
     public static void main(String[] args) {
-        int[] array = {2,3,5,8,6,15,20,25,29,30};
+        int[] array = {2};
         int goal = 30;
         int ans = binarySearch(array,goal);
         System.out.println(ans);
